@@ -1,10 +1,13 @@
 import React from "react";
+import Navbar from "./component/navbar/navbar";
+import Footer from "./component/footer/footer";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
+    <>
+      <Navbar />
+      <Footer />
+    </>
   );
 }
 

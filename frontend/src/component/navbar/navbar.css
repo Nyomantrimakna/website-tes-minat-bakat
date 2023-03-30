@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  font-size: 1.5vw;
+  color: #fff;
+  font-weight: 700;
+}
+
+.NavbarItems {
+  background-color: #383838;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  padding-top: 1rem;
+}
+
+.nav-links {
+  color: #fff;
+  padding: 0 2rem;
+}
+
+.nav-links:hover {
+  color: #8d867f;
+}
+
+.nav-links::after {
+  content: "";
+  display: block;
+  border-bottom: 0.1rem solid #8d867f;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.nav-links:hover::after {
+  transform: scaleX(0.2);
+}

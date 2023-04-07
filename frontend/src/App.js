@@ -1,13 +1,12 @@
 import React from "react";
-import Navbar from "./component/navbar/navbar";
-import Footer from "./component/footer/footer";
+import { Routes, Route } from "react-router-dom";
+import Home from "./content/home/home";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   );
 }
 

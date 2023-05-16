@@ -37,3 +37,19 @@
   width: 100vh;
   padding: 100px;
 }
+
+.btn-lihat-selengkapnya {
+  background-color: #383838;
+  color: #f3ebe2;
+  padding: 2vh 3vw;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-lihat-selengkapnya:hover {
+  background-color: #f3ebe2;
+  color: #383838;
+  transition: 0.5s;
+  letter-spacing: 0.2rem;
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.box-main-hasiltest {
+  background-image: url(../../component/image/background_hasiltest.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  color: antiquewhite;
+}
+
+.nama-kepribadian {
+  color: antiquewhite;
+  text-align: center;
+  padding: 10vh 0 5vh 0;
+  font-size: 5rem;
+}
+
+.box-rekomendasi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 5vh 0;
+}
+
+.rekomendasi-jurusan {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.box-deskripsi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.deskripsi {
+  text-align: center;
+  padding: 0 5vw;
+  margin: 0 10vw;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px #000;
+}

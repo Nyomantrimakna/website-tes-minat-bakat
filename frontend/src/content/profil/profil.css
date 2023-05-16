@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.profil-main-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 50px;
+  background: #dedede;
+  box-shadow: 27px 27px 53px #bdbdbd, -27px -27px 53px #ffffff;
+  margin: 5vh 10vh;
+  color: #383838;
+}
+
+.box-header {
+  font-family: "Poopins", sans-serif;
+  font-size: 2rem;
+  padding-bottom: 5vh;
+}
+
+.box-profile-foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 10%;
+  background-color: #f2f2f2;
+  font-size: 10rem;
+}
+
+.left-box {
+  margin: 5vw 0;
+}
+
+.right-box {
+  padding-left: 10vw;
+}
+
+.box-detail-profil {
+  padding-top: 20vh;
+}
+
+.username-box,
+.email-box {
+  margin: 7vh 0 2vh 0;
+}
+
+.username,
+.email {
+  font-family: "Poopins", sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 1vh;
+}
+
+.username-isi,
+.email-isi {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  padding: 2vh 1vw;
+  background-color: #bdbdbd;
+  width: 20vw;
+  border-radius: 10px;
+}
+
+.btn-box-profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.the-btn {
+  margin-top: 5vh;
+  margin-right: 2vw;
+  background-color: #383838;
+  border-radius: 10px;
+  padding: 2vh 4vw;
+  font-family: "Poopins", sans-serif;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  color: #bdbdbd;
+}
+
+.the-btn:hover {
+  letter-spacing: 1px;
+  transition: 0.5s;
+  background-color: #f3ebe2;
+  color: #383838;
+}

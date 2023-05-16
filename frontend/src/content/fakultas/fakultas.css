@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.container-header {
+  text-align: center;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-list-fakultas {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.fakultas-list {
+  flex-basis: 25%;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.fakultas-list:hover {
+  box-shadow: 10px 10px 20px #393939;
+  transition: 0.5s;
+}
+
+.header-list {
+  text-align: center;
+  justify-content: center;
+  padding: 70px;
+  color: #383838;
+  background-color: #f3ebe2;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.list-fakultas-name {
+  padding: 10px;
+  background-color: #383838;
+  color: #fff;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.fakultas-name {
+  font-size: 1rem;
+}
+
+.the-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/*loader*/
+.loading {
+  text-align: center;
+  padding: 100px;
+}
+.loader {
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  border: 5px solid #393939;
+  border-bottom-color: #f3ebe2;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

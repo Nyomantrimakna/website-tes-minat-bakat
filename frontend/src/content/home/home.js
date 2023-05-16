@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../../component/navbar/navbar";
 import HeroSection from "./heroSection/heroSection";
 import MainContent from "./mainContent/mainContent";
 import Footer from "../../component/footer/footer";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />

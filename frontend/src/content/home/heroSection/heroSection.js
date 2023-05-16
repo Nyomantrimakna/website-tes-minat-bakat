@@ -9,6 +9,9 @@ function HeroSection({ headLine, description, alt }) {
       <div className="hero-section-text-box">
         <h1 className="heading-primary">{headLine}</h1>
         <p className="paragraf-primary">{description}</p>
+        <Link to="/penjelasan">
+          <button className="btn-lihat-selengkapnya">Lihat Selengkapnya</button>
+        </Link>
       </div>
       <div className="herosection-image">
         <img src={HeroImage} alt={alt} className="hero-image" />

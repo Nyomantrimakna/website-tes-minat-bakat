@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.hero-section-detail {
+  height: 100vh;
+  color: white;
+  text-shadow: 5px 5px 5px #393939;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../component/image/herosection_fakultaspage.jpg);
+}
+
+.content-detail {
+  color: #393939;
+}
+
+.head-detail-hero {
+  font-size: 20vh;
+}
+
+/*penjelasan section*/
+.penjelasan {
+  justify-content: center;
+  text-align: justify;
+  padding: 20vh 30vh;
+}
+
+.header-detail {
+  font-size: 7vh;
+  padding-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.paragraf-penjelasan {
+  font-size: 4vh;
+}
+
+/*program studi*/
+.program-studi {
+  background-color: #f3ebe2;
+  margin: 5vh 10vh;
+  padding: 10vh 20vh;
+  border-radius: 20px;
+}
+
+.list-prodi-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.list-prodi1,
+.list-prodi2 {
+  font-size: 5vh;
+}

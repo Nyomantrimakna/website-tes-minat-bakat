@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.test-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20vh;
+}
+
+.header-test-page {
+  color: #393939;
+  padding-bottom: 5vh;
+}
+
+.paragraf-test-page {
+  color: #393939;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 1.5vw;
+  padding: 2vh 0vh;
+}
+
+.list-ketentuan {
+  padding-left: 10vh;
+}
+
+.ketentuan {
+  font-weight: 500;
+  font-size: 2vh;
+  color: #393939;
+  font-size: 1.2vw;
+}
+
+.header-2 {
+  font-size: 2vw;
+  padding-top: 2vh;
+  color: #393939;
+}
+
+.btn-mulai-box {
+  justify-content: right;
+  display: flex;
+}
+
+.btn-mulai {
+  text-decoration: none;
+  color: #fff;
+  padding: 2vh;
+  background-color: #393939;
+  text-align: center;
+  width: 20vh;
+  border-radius: 10px;
+}
+
+.btn-mulai:hover {
+  background-color: #f3ebe2;
+  color: #393939;
+  transition: 0.5s;
+}

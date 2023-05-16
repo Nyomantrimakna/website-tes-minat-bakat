@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.header-history {
+  text-align: center;
+  margin: 5vh 5vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #383838;
+  font-size: 2rem;
+}
+
+.box-data {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 5vh 0;
+}
+
+.item-data {
+  flex-basis: 25%;
+  margin: 2vh 2vw;
+  padding: 5vh;
+  background-color: #f3ebe2;
+  border-radius: 20px;
+}
+
+.box-item-id,
+.box-item-result {
+  padding-bottom: 2vh;
+}
+
+.item-id-header,
+.item-result-header,
+.header-parameter {
+  font-size: 1.5rem;
+}
+
+.item-parameter,
+.item-id-content,
+.item-result {
+  font-weight: 500;
+}

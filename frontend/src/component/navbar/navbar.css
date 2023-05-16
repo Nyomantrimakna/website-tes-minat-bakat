@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  margin-left: 5vh;
+  font-size: 1.5vw;
+  color: #fff;
+  font-weight: 700;
+}
+
+.NavbarItems {
+  background-color: #383838;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-menu-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-menu {
+  display: flex;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav-links {
+  align-items: center;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  position: relative;
+  font-size: 1.2vw;
+}
+
+.nav-links:hover {
+  color: #8d867f;
+}
+
+.nav-links::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #18272f;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-links:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.profile-icon {
+  display: flex;
+  justify-content: center;
+  padding: 2vh;
+  color: #18272f;
+  font-weight: 800;
+}
+
+.profile-box {
+  margin-right: 2vh;
+}
+
+.profile-picture {
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5vh;
+  width: 7vh;
+  height: 7vh;
+  border-radius: 100%;
+  background-color: #8d867f;
+}

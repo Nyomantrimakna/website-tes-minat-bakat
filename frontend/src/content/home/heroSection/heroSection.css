@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  background-color: #f3ebe2;
+  color: #383838;
+  width: 100%;
+}
+
+.hero-section-text-box {
+  flex-basis: 50%;
+  padding: 100px;
+}
+
+.heading-primary {
+  font-size: 4em;
+  font-weight: 1000;
+}
+
+.paragraf-primary {
+  font-size: 1.2em;
+}
+
+.heading-primary,
+.paragraf-primary {
+  font-family: "Poopins", sans-serif;
+  padding-bottom: 20px;
+}
+
+.herosection-image {
+  flex-basis: 50%;
+}
+
+.hero-image {
+  object-position: center;
+  width: 100vh;
+  padding: 100px;
+}
+
+.btn-lihat-selengkapnya {
+  background-color: #383838;
+  color: #f3ebe2;
+  padding: 2vh 3vw;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-lihat-selengkapnya:hover {
+  background-color: #f3ebe2;
+  color: #383838;
+  transition: 0.5s;
+  letter-spacing: 0.2rem;
+}

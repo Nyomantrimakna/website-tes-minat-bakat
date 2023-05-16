@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.datapenjelasan-main-box {
+  font-family: "Poppins", sans-serif;
+}
+
+.herosection-penjelasan {
+  background-color: #f3ebe2;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-herosection {
+  color: #383838;
+  font-size: 10rem;
+}
+
+.header-herosection:hover {
+  letter-spacing: 20px;
+  transition: 0.5s;
+}
+
+.penjelasan-riasec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10vh 20vh;
+}
+
+.header-penjelasan {
+  padding: 5vh;
+  font-size: 4rem;
+}
+
+.paragraf-penjelasan {
+  text-align: justify;
+}
+
+.pembagian-riasec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pembagian1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5vh 20vh;
+}
+
+.header-pembagian1 {
+  font-size: 2rem;
+  padding-bottom: 2vh;
+}
+
+.penjelasan-pembagian1 {
+  font-size: 1.5rem;
+  padding-bottom: 2vh;
+  text-align: justify;
+}

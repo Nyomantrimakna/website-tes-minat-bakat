@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/website-tes-minat-bakat/static/css/main.f6109d9c.css",
+    "main.js": "/website-tes-minat-bakat/static/js/main.527323ad.js",
+    "static/media/background_hasiltest.jpg": "/website-tes-minat-bakat/static/media/background_hasiltest.93ddfe4c7f05983b7713.jpg",
+    "static/media/information_page.jpg": "/website-tes-minat-bakat/static/media/information_page.90cdb470f7a2b645733a.jpg",
+    "static/media/herosection_fakultaspage.jpg": "/website-tes-minat-bakat/static/media/herosection_fakultaspage.277065ed65d1c3556b15.jpg",
+    "static/media/Loginpage_img_computer.png": "/website-tes-minat-bakat/static/media/Loginpage_img_computer.a1dca7ed534cbc998436.png",
+    "static/media/img_home1.png": "/website-tes-minat-bakat/static/media/img_home1.bb6332c0a3ecf9e4846b.png",
+    "static/media/home_page.png": "/website-tes-minat-bakat/static/media/home_page.128ee8d9ab07211a8e2b.png",
+    "static/media/img_home2.png": "/website-tes-minat-bakat/static/media/img_home2.81356460e6e8384c7206.png",
+    "static/media/img_home3.png": "/website-tes-minat-bakat/static/media/img_home3.633d44aefc101835f360.png",
+    "index.html": "/website-tes-minat-bakat/index.html",
+    "main.f6109d9c.css.map": "/website-tes-minat-bakat/static/css/main.f6109d9c.css.map",
+    "main.527323ad.js.map": "/website-tes-minat-bakat/static/js/main.527323ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6109d9c.css",
+    "static/js/main.527323ad.js"
+  ]
+}
